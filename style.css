@@ -1,11 +1,42 @@
 body {
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     margin: 0;
+    display: flex;
+    flex-wrap: wrap;
     background-color: aquamarine;
 }
 
 .notes {
     background-color: aliceblue;
+    margin: 20px;
     height: 400px;
     width: 400px;
+}
+
+.notes .tools {
+    background-color: rgb(254, 2, 204);
+    display: flex;
+    justify-content: flex-end;
+    padding: 0.5rem;
+}
+
+.notes .tools button {
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 1rem;
+    margin-left: 0.5rem;
+}
+
+.notes .main{
+    height: 100%;
+    width: 100%;
+}
+
+.notes textarea {
+    height: 100%;
+    width: 100%;
+    border: none;
+    font-family: inherit ;
+    outline: none;
 }
