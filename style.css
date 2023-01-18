@@ -1,6 +1,5 @@
 body {
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    margin: 0;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;    margin: 0;
     display: flex;
     flex-wrap: wrap;
     background-color: aquamarine;
@@ -30,6 +29,7 @@ body {
 
 .notes .main{
     height: 100%;
+    display: none;
     width: 100%;
 }
 
