@@ -1,5 +1,5 @@
 body {
-font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     display: flex;
     flex-wrap: wrap;
     background-color: aquamarine;
@@ -29,7 +29,6 @@ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;    margi
 
 .notes .main{
     height: 100%;
-    display: none;
     width: 100%;
 }
 
@@ -39,6 +38,7 @@ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;    margi
     border: none;
     font-family: inherit ;
     outline: none;
+    font-size: 1.2rem;
 }
 
 .notes .hidden {
