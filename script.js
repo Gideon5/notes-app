@@ -35,6 +35,8 @@ function addNewNote() {
     editBtn.addEventListener("click", ()=> {
         main.classList.toggle("hidden")
         textArea.classList.toggle("hidden")
+    
+        
 
         
     deleteBtn.addEventListener("click", () => {
