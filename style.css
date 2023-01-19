@@ -2,11 +2,11 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     display: flex;
     flex-wrap: wrap;
-    background-color: aquamarine;
+    background-color: rgb(54, 180, 0);
 }
 
 .notes {
-    background-color: aliceblue;
+    background-color: rgb(57, 162, 255);
     margin: 20px;
     height: 400px;
     width: 400px;
@@ -30,6 +30,8 @@ body {
 .notes .main{
     height: 100%;
     width: 100%;
+    background-color: rgb(214, 197, 231);
+    overflow: hidden;
 }
 
 .notes textarea {
@@ -43,4 +45,17 @@ body {
 
 .notes .hidden {
     display: none;
+}
+
+.add {
+    background-color: yellow;
+    margin: 2rem auto;
+    padding: 0.5rem 1rem ;
+    color: rgb(0, 118, 32);
+    border-radius: 3px;
+    position: fixed;
+    border: none;
+    top: 1rem;
+    right: 1rem;
+
 }
